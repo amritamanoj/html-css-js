@@ -1,0 +1,41 @@
+.footer{
+ 
+  background-color: #212329;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.footer-container{
+  padding: 10px 20px;
+  color: white;
+}
+ul{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+  transition: 0.2s ease-out;
+}
+
+a:hover{
+  text-decoration: none;
+  color:red;
+  transition: 0.2s ease-out;
+}
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer-col{
+  padding: 135px;
+}
+
+h4{
+  padding-bottom: 25px;
+}
+

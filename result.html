@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="resultpage.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+  <title>Results</title>
+</head>
+<body onload="employee()">
+  <div class="container">
+    <nav class="navbar">
+      <h1 id="navbar-logo">Wayne Enterprises</h1>
+      <div class="menu-toggle" id="mobile-menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+      <ul class="nav-menu">
+        <li><a href="mainpage.html" class="nav-links">Home</a></li>
+        <li><a href="" class="nav-links">Services</a></li>
+        <li><a href="" class="nav-links">About Us</a></li>
+        <li><a href="" class="nav-links">Contact Us</a></li>
+        <li><a href="signup-2.html" class="nav-links nav-links-btn">Log In</a></li>
+        
+      </ul>
+    </nav>
+  </div>
+  <table>
+    <tr>
+      <td>Name</td>
+      <td><p id="result-name"></p></td>
+    </tr>
+    <tr>
+      <td>E-Mail</td>
+      <td><p id="result-email"></p></td>
+    </tr>
+  <tr>
+    <td>Employee ID</td>
+    <td><p id="result-empid"></p></td>
+  </tr>
+  <tr>
+    <td>Skills</td>
+    <td><p id="result-skill"></p></td>
+  </tr>
+  <tr>
+    <td>Designation</td>
+    <td><p id="result-desig"></p></td>
+  </tr>
+ 
+</table>
+
+  <h3>Search Employees</h3>
+  <button class="search-button"><a href="search.html">Search</a></button>
+  <script src="app.js">
+  </script>
+</body>
+</html>

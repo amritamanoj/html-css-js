@@ -1,0 +1,56 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Nunito',sans-serif;
+}
+
+.ceo{
+  background-color: #212329;
+  width:100%
+}
+
+.ceo-container{
+  display: grid;
+  grid-template-columns: 1fr,1fr;
+  align-items: left;
+  justify-self: left;
+  width: 80%;
+  margin: 0 auto;
+  height: 90vh;
+  background-color: #212329;
+}
+
+.ceo-content{
+  
+  position: absolute;
+  top:50%;
+
+  padding: 60px;
+  margin: 20px;
+  color: white;
+  width: 80%;
+}
+
+#header{
+  font-size: 2rem;
+}
+
+#bruce{
+  font-size: 1rem;
+  padding-top: 20px;
+}
+
+.ceo-pic{
+  background-image: url("https://assets.mycast.io/actor_images/actor-ben-affleck-4916_large.jpeg?1577590269");
+  background-repeat: no-repeat;
+  width: 1100px;
+  height: 1100px;
+  position: absolute;
+  top: 50%;
+  left: 70%;
+  margin-top: -200px;
+  margin-left: -20px;
+  cursor: pointer;
+}
+

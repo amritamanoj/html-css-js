@@ -1,0 +1,77 @@
+.main{
+  background: #212329;
+}
+
+.main-container{
+  display: grid;
+  grid-template-columns: 1fr,1fr;
+  align-items: center;
+  justify-self: center;
+  width: 80%;
+  margin: 0 auto;
+  height: 90vh;
+  background-color: #212329;
+}
+
+.main-content{
+  justify-self: start;
+  padding: 60px;
+  margin: 20px;
+  color: white;
+  width: 80%;
+}
+
+.main-content h1{
+  font-size: 3rem;
+}
+
+.main-content p{
+  padding-top: 5px;
+  margin: 5px;
+  font-size: 1.6rem;
+}
+
+.main-btn{
+  background-color: tomato;
+  color: white;
+  border-radius: 5px;
+
+  padding: 10px 14px;
+  border:1px solid black;
+  font-family: 'Nunito',sans-serif;
+  margin-top: 2rem;
+  cursor: pointer;
+}
+
+.main-btn a{
+  position:relative;
+  z-index: 2;
+  font-family: 'Nunito',sans-serif;
+  color:white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+
+.main-btn:hover{
+  background-color: transparent;
+  color: white;
+  border-radius: 5px;
+  
+  padding: 10px 14px;
+  border:1px solid rgb(255, 255, 255);
+  transition: 0.2s ease-in-out;
+  font-family: 'Nunito',sans-serif;
+  margin-top: 2rem;
+  cursor: pointer;
+  
+}
+
+
+#main-img{
+  height: 50%;
+  width: 50%;
+  float: right;
+
+}
+

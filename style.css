@@ -1,0 +1,166 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Varela Round', sans-serif;
+  background-color: #151630;
+}
+
+.signup-form{
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+  border-radius: 16px;
+  width: 400px;
+  height: 500px;
+  padding: 120px 50px;
+  box-shadow: 2px 2px 8px #000000ab;
+  background-image: linear-gradient(#cc2b5e,#753a88);
+}
+
+
+.img-overlay::before{
+content: '';
+position: absolute;
+left: 0;
+top:0;
+opacity: 0.18;
+width: 400px;
+height: 600px;
+border-radius: 16px;
+}
+
+.icon{
+  position: absolute;
+  top:20px;
+  right:20px;
+  color:whitesmoke;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.login{
+  color:white;
+  font-size: 0.8rem;
+  text-align: center;
+  margin-top: 3rem;
+
+}
+
+
+.forms h1{
+  color:white;
+  font-size: 1rem;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  color: white;
+  margin-bottom:1.5rem ;
+  cursor: pointer;
+  font-size: 0.7rem ;
+  border-bottom: 1px solid rgba(231, 231,231, 0.8);
+}
+
+.container:hover{
+  transition: 0.2s ease-in-out;
+  border-bottom: 3px solid white;
+  cursor: pointer;
+}
+#name, #name::placeholder{
+  width:100%;
+  border: none;
+  background:none;
+  outline: none;
+  padding: 5px 0;
+  color:gray;
+  
+}
+
+#email, #email::placeholder{
+  width:100%;
+  border: none;
+  background:none;
+  outline: none;
+  padding: 5px 0;
+  color:gray;
+  
+}
+
+#password,#password::placeholder{
+  width:100%;
+  border: none;
+  background:none;
+  outline: none;
+  padding: 5px 0;
+  color:gray;
+}
+
+#password2,#password2::placeholder{
+  width:100%;
+  border: none;
+  background:none;
+  outline: none;
+  padding: 5px 0;
+  color:gray;
+}
+
+
+.button{
+  width:100%;
+  background: white;
+  border-radius: 30px;
+  padding:14px;
+  border:none;
+  font-size: 0.6rem;
+  font-weight: bold;
+  text-transform: uppercase ;
+  margin-bottom: 20px;
+  color:#0145ff;
+  outline:none;
+  cursor: pointer;
+}
+
+.button:hover{
+  width:100%;
+  background:transparent;
+  border-radius: 2px solid white;
+  padding:14px;
+  border:2px;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase ;
+  margin-bottom: 20px;
+  transition: 0.3s ease-in-out;
+  color:white;
+  outline: 2px;
+  cursor: pointer;
+}
+
+p{
+  color:white;
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+.back{
+  color:blueviolet;
+  font-size: 15px;
+  padding-left: 20px;
+  padding-top: 20px;
+  
+}
+
+.back a{
+  text-decoration: none;
+}
